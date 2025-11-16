@@ -5,7 +5,7 @@
         if (!arguments[1].includes("s.blooket.com/rc"))
             return wfcall.apply(this, arguments);
     }
-    if (console.log("%c Joshs/froppydog67 Blooket Hacks / Cheats %c\n	Modified by Josh/froppydog67 on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/froppydog/blooketcheats.github.io)", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    if (console.log("%c Josh/FroppyDog67 Blooket Hacks / Cheats %c\n	Modified by Josh/FroppyDog67-On on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/froppydog/blooketcheats.github.io", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;)
             e.contentWindow.clearInterval.call(window, t);
         e.remove()
@@ -37,21 +37,21 @@
         data: null,
         setItem(e, t) {
             return e.split(".").reduce((e, a, o, r) => (e[a] = (e[a] ? e[a] : {}), ++o == r.length && (e[a] = t), e[a]), this.data),
-                localStorage.setItem("JoshGUISettings", JSON.stringify(this.data)),
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data)),
                 this.data
         },
         deleteItem(e) {
             return e.split(".").reduce((e, t, a, o) => (++a == o.length && delete e[t], e[t]), this.data),
-                localStorage.setItem("JoshGUISettings", JSON.stringify(this.data)),
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data)),
                 this.data
         },
         setData(e) {
             this.data = e,
-                localStorage.setItem("JoshGUISettings", JSON.stringify(this.data))
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data))
         }
     };
     try {
-        for (let d of (c.data = JSON.parse(localStorage.getItem("JoshGUISettings") || "{}"), ["backgroundColor", "cheatList", "contentBackground", "defaultButton", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"]))
+        for (let d of (c.data = JSON.parse(localStorage.getItem("ZIPGUISettings") || "{}"), ["backgroundColor", "cheatList", "contentBackground", "defaultButton", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"]))
             c.data[d] && (c.setItem("theme." + d, c.data[d]), c.deleteItem(d))
     } catch {
         c.setData({})
@@ -66,7 +66,7 @@
         b,
         v,
         _ = l("div", {
-            id: "JoshGUI",
+            id: "ZIPGUI",
             style: {
                 top: Math.max(10, window.innerHeight - 600) / 2 + "px",
                 left: Math.max(10, window.innerWidth - 1e3) / 2 + "px",
@@ -283,7 +283,7 @@
                 display: "flex",
                 flexDirection: "column"
             },
-            innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Joshs/froppydog67 Cheats<sup>v2.1</sup></span>'
+            innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Josh/FroppyDog67 Cheats<sup>v2.1</sup></span>'
         }, l("a", {
             className: "bigButton",
             style: {
