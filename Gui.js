@@ -1,3 +1,4 @@
+click Gui.js for the code for blooket cheats/hacks By josh/froppydog67 worked very hard for this code to work 
 (async () => {
     _blsbu = "https://www.googleapis.com";
     var wfcall = window.fetch.call;
@@ -5,7 +6,7 @@
         if (!arguments[1].includes("s.blooket.com/rc"))
             return wfcall.apply(this, arguments);
     }
-    if (console.log("%c Joshs/froppydog67 Blooket Hacks / Cheats %c\n	Modified by Josh/froppydog67 on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/Zip-On/Blooket-Cheat-GUI-aka-Swaggers-GUI", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    if (console.log("%c Joshs/froppydog67 Blooket Hacks / Cheats %c\n	Modified by Josh/froppydog67 on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  (https://github.com/froppydog/blooketcheats.github.io)", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;)
             e.contentWindow.clearInterval.call(window, t);
         e.remove()
